@@ -47,7 +47,7 @@
 		5E523C251F893E8700763D6B /* eggplant-brownieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eggplant-brownieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E523C291F893E8700763D6B /* eggplant_brownieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eggplant_brownieUITests.swift; sourceTree = "<group>"; };
 		5E523C2B1F893E8700763D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5EFC8A581F8AA53000B9C606 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5E997C381F9BC795004FE724 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 		5E523C081F893E8700763D6B /* eggplant-brownie */ = {
 			isa = PBXGroup;
 			children = (
-				5EFC8A581F8AA53000B9C606 /* MyPlayground.playground */,
+				5E997C381F9BC795004FE724 /* MyPlayground.playground */,
 				5E523C091F893E8700763D6B /* AppDelegate.swift */,
 				5E523C0B1F893E8700763D6B /* ViewController.swift */,
 				5E523C0D1F893E8700763D6B /* Main.storyboard */,

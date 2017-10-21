@@ -1,19 +1,26 @@
+//: Playground - noun: a place where people can play
+
 import UIKit
 
-
-class Meal {
-    var happiness:Int = 0
-    var name:String = "nameMeal"
+class Meal{
+    var happiness:Int?
+    var name:String?
 }
 
-var arroz = Meal()
-arroz.happiness = 2
-arroz.name = "Arroz"
+var brownie = Meal()
+brownie.name = "eggplant brownie"
 
-let feijao = Meal();
-feijao.happiness = 3
-feijao.name = "Feijão"
+print(brownie.happiness)
+print(brownie.name)
 
-//print(arroz)
-//print(feijao)
+if let name = brownie.name{
+    print(name.uppercased())
+}else{
+    print("name is nil")
+}
 
+if let number = Int("5"){
+    print(number)
+}else{
+    print("number is nil")
+}
