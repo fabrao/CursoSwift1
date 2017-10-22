@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E0D7F221F9D357A00CCDCE0 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D7F211F9D357A00CCDCE0 /* Meal.swift */; };
+		5E0D7F241F9D35EB00CCDCE0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D7F231F9D35EB00CCDCE0 /* Item.swift */; };
+		5E0D7F261F9D3B4000CCDCE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D7F251F9D380C00CCDCE0 /* ViewController.swift */; };
+		5E0D7F2D1F9D445700CCDCE0 /* MainMeal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D7F2C1F9D445700CCDCE0 /* MainMeal.storyboard */; };
 		5E523C0A1F893E8700763D6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E523C091F893E8700763D6B /* AppDelegate.swift */; };
-		5E523C0C1F893E8700763D6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E523C0B1F893E8700763D6B /* ViewController.swift */; };
-		5E523C0F1F893E8700763D6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E523C0D1F893E8700763D6B /* Main.storyboard */; };
 		5E523C111F893E8700763D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E523C101F893E8700763D6B /* Assets.xcassets */; };
-		5E523C141F893E8700763D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E523C121F893E8700763D6B /* LaunchScreen.storyboard */; };
 		5E523C1F1F893E8700763D6B /* eggplant_brownieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E523C1E1F893E8700763D6B /* eggplant_brownieTests.swift */; };
 		5E523C2A1F893E8700763D6B /* eggplant_brownieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E523C291F893E8700763D6B /* eggplant_brownieUITests.swift */; };
 /* End PBXBuildFile section */
@@ -34,12 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E0D7F211F9D357A00CCDCE0 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		5E0D7F231F9D35EB00CCDCE0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5E0D7F251F9D380C00CCDCE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E0D7F2C1F9D445700CCDCE0 /* MainMeal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainMeal.storyboard; sourceTree = "<group>"; };
 		5E523C061F893E8700763D6B /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E523C091F893E8700763D6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E523C0B1F893E8700763D6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5E523C0E1F893E8700763D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E523C101F893E8700763D6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5E523C131F893E8700763D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E523C151F893E8700763D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E523C1A1F893E8700763D6B /* eggplant-brownieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eggplant-brownieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E523C1E1F893E8700763D6B /* eggplant_brownieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eggplant_brownieTests.swift; sourceTree = "<group>"; };
@@ -75,6 +77,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E0D7F1D1F9D352C00CCDCE0 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D7F251F9D380C00CCDCE0 /* ViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		5E0D7F1E1F9D352D00CCDCE0 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D7F2C1F9D445700CCDCE0 /* MainMeal.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		5E0D7F1F1F9D352D00CCDCE0 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D7F211F9D357A00CCDCE0 /* Meal.swift */,
+				5E0D7F231F9D35EB00CCDCE0 /* Item.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		5E523BFD1F893E8600763D6B = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +125,12 @@
 		5E523C081F893E8700763D6B /* eggplant-brownie */ = {
 			isa = PBXGroup;
 			children = (
+				5E0D7F1F1F9D352D00CCDCE0 /* models */,
+				5E0D7F1D1F9D352C00CCDCE0 /* viewcontrollers */,
+				5E0D7F1E1F9D352D00CCDCE0 /* views */,
 				5E997C381F9BC795004FE724 /* MyPlayground.playground */,
 				5E523C091F893E8700763D6B /* AppDelegate.swift */,
-				5E523C0B1F893E8700763D6B /* ViewController.swift */,
-				5E523C0D1F893E8700763D6B /* Main.storyboard */,
 				5E523C101F893E8700763D6B /* Assets.xcassets */,
-				5E523C121F893E8700763D6B /* LaunchScreen.storyboard */,
 				5E523C151F893E8700763D6B /* Info.plist */,
 			);
 			path = "eggplant-brownie";
@@ -234,9 +261,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E523C141F893E8700763D6B /* LaunchScreen.storyboard in Resources */,
+				5E0D7F2D1F9D445700CCDCE0 /* MainMeal.storyboard in Resources */,
 				5E523C111F893E8700763D6B /* Assets.xcassets in Resources */,
-				5E523C0F1F893E8700763D6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E523C0C1F893E8700763D6B /* ViewController.swift in Sources */,
+				5E0D7F241F9D35EB00CCDCE0 /* Item.swift in Sources */,
+				5E0D7F221F9D357A00CCDCE0 /* Meal.swift in Sources */,
+				5E0D7F261F9D3B4000CCDCE0 /* ViewController.swift in Sources */,
 				5E523C0A1F893E8700763D6B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,25 +324,6 @@
 			targetProxy = 5E523C261F893E8700763D6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5E523C0D1F893E8700763D6B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E523C0E1F893E8700763D6B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5E523C121F893E8700763D6B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E523C131F893E8700763D6B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5E523C2C1F893E8700763D6B /* Debug */ = {
@@ -429,12 +438,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "eggplant-brownie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fabrao.eggplant-brownie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -443,12 +453,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "eggplant-brownie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fabrao.eggplant-brownie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
