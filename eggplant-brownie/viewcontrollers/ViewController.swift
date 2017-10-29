@@ -22,9 +22,9 @@ class ViewController: UIViewController {
         let name:String = nameField!.text!
         
         if let happiness = Int(happinessField!.text!){
-            let meal = Meal(name: name, happiness: happiness)
+            let meal = Meal(name, happiness)
             print("eaten \(meal.name) with happiness \(meal.happiness)!");
-            mealsTable?.add(meal: meal)
+            mealsTable?.add(meal)
             if let navigation = navigationController {
                 navigation.popViewController(animated: true)
             }

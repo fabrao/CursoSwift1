@@ -13,7 +13,7 @@ class Meal {
     let happiness:Int
     let items = Array<Item>()
     
-    init(name:String, happiness:Int){
+    init(_ name:String, _ happiness:Int){
         self.name = name
         self.happiness = happiness
     }
