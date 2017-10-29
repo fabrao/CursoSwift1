@@ -15,6 +15,7 @@
 		5E523C111F893E8700763D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E523C101F893E8700763D6B /* Assets.xcassets */; };
 		5E523C1F1F893E8700763D6B /* eggplant_brownieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E523C1E1F893E8700763D6B /* eggplant_brownieTests.swift */; };
 		5E523C2A1F893E8700763D6B /* eggplant_brownieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E523C291F893E8700763D6B /* eggplant_brownieUITests.swift */; };
+		5E8289E81FA6683100B7116B /* MealsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8289E71FA6683100B7116B /* MealsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5E523C251F893E8700763D6B /* eggplant-brownieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eggplant-brownieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E523C291F893E8700763D6B /* eggplant_brownieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eggplant_brownieUITests.swift; sourceTree = "<group>"; };
 		5E523C2B1F893E8700763D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E8289E71FA6683100B7116B /* MealsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsTableViewController.swift; sourceTree = "<group>"; };
 		5E997C381F9BC795004FE724 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				5E0D7F251F9D380C00CCDCE0 /* ViewController.swift */,
+				5E8289E71FA6683100B7116B /* MealsTableViewController.swift */,
 			);
 			path = viewcontrollers;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8289E81FA6683100B7116B /* MealsTableViewController.swift in Sources */,
 				5E0D7F241F9D35EB00CCDCE0 /* Item.swift in Sources */,
 				5E0D7F221F9D357A00CCDCE0 /* Meal.swift in Sources */,
 				5E0D7F261F9D3B4000CCDCE0 /* ViewController.swift in Sources */,
